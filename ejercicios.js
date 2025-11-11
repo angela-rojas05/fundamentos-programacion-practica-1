@@ -16,9 +16,9 @@ function miInformacion() {
   // Ejemplo: const nombre = "Juan";
   // hkjhkh
   
-  const nombre = "Angie";
-  const edad = 99;
-  const carrera = "TSU";
+  const nombre = "Angela Yaritzi Rojas Brito";
+  const edad = 20;
+  const carrera = "TSU en desarrollo e innovacion de software";
   
   return { nombre, edad, carrera };
 }
