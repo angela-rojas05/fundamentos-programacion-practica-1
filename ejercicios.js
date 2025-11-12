@@ -191,6 +191,11 @@ function tablaMultiplicar(numero) {
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
   const pares = [];
+  for (let i = 2; i <= n; i++) {
+    if (i % 2 === 0) {
+      pares.push(i);
+    }
+  }
   return pares;
 }
 
